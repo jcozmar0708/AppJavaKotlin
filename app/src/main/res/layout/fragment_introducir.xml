@@ -23,32 +23,38 @@
         <EditText
             android:id="@+id/editTextIDIntro"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
 
         <EditText
             android:id="@+id/editTextNombre"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
 
         <EditText
             android:id="@+id/editTextMates"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
 
         <EditText
             android:id="@+id/editTextLengua"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
 
         <EditText
             android:id="@+id/editTextInformatica"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
 
         <EditText
             android:id="@+id/editTextIngles"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
 
     </LinearLayout>
 
