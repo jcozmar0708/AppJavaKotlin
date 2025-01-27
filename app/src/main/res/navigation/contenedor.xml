@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.jcozmar0708.appjavakotlin.Fragmentos.InicioFragment"
+        android:label="App Medias"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_introducir"
+        android:name="com.jcozmar0708.appjavakotlin.Fragmentos.IntroducirFragment"
+        android:label="Introducir Alumno"
+        tools:layout="@layout/fragment_introducir" >
+        <action
+            android:id="@+id/action_nav_introducir_to_inicioFragment"
+            app:destination="@id/inicioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_borrar"
+        android:name="com.jcozmar0708.appjavakotlin.Fragmentos.BorrarFragment"
+        android:label="Borrar Alumno"
+        tools:layout="@layout/fragment_borrar" >
+        <action
+            android:id="@+id/action_borrarFragment_to_inicioFragment"
+            app:destination="@id/inicioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_listar"
+        android:name="com.jcozmar0708.appjavakotlin.Fragmentos.ListarFragment"
+        android:label="Listar Alumnado"
+        tools:layout="@layout/fragment_listar" />
+    <fragment
+        android:id="@+id/nav_panel"
+        android:name="com.jcozmar0708.appjavakotlin.Fragmentos.PanelFragment"
+        android:label="Grid Alumnos"
+        tools:layout="@layout/fragment_panel" />
+</navigation>

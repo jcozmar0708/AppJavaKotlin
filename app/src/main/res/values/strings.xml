@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AppJavaKotlin</string>
+
+    <string name="introducir">Introducir</string>
+    <string name="borrar">Borrar</string>
+    <string name="listar">Listar</string>
+    <string name="panel">Panel</string>
+
+    <string name="bienvenidos_a_la_app_medias">Bienvenidos a la app Medias</string>
+
+    <string name="introduce_el_id">Introduce el ID</string>
+    <string name="introduce_el_nombre">Introduce el Nombre</string>
+    <string name="introduce_la_nota_de_matematicas">Introduce la nota de Matemáticas</string>
+    <string name="introduce_la_nota_de_lengua">Introduce la nota de Lengua</string>
+    <string name="introduce_la_nota_de_informatica">Introduce la nota de Informática</string>
+    <string name="introduce_la_nota_de_ingles">Introduce la nota de Inglés</string>
+    <string name="introduce_el_id_del_alumno">Introduce el ID del alumno</string>
+
+</resources>

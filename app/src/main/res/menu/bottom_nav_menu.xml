@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_introducir"
+        android:icon="@drawable/ic_aniadir"
+        android:title="@string/introducir" />
+
+    <item
+        android:id="@+id/nav_borrar"
+        android:icon="@drawable/ic_borrar"
+        android:title="@string/borrar" />
+
+    <item
+        android:id="@+id/nav_listar"
+        android:icon="@drawable/ic_listar"
+        android:title="@string/listar" />
+
+    <item
+        android:id="@+id/nav_panel"
+        android:icon="@drawable/ic_panel"
+        android:title="@string/panel" />
+
+</menu>
